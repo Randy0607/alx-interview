@@ -36,5 +36,6 @@ if __name__ == '__main__':
                 print_stats(status_count, filesize)
         print_stats(status_count, filesize)
     except KeyboardInterrupt:
+        # Handle keyboard interruptioon (Ctrl+C) And Print final statistics
         print_stats(status_count, filesize)
         raise
